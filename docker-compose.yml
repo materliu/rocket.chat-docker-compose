@@ -13,7 +13,6 @@ rocketchat:
     - PORT=3000
     - ROOT_URL=http://43.241.10.189:10030
     - MONGO_URL=mongodb://mongo:27017/rocketchat
-    - MAIL_URL=smtp://smtp.exmail.qq.com
   links:
     - mongo:mongo
   ports:
