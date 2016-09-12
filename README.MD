@@ -19,3 +19,5 @@ Administration - General under UTF8 section  此处的值修改为： [^\x00-\x7
 添加机器人账号： 
     - ROCKETCHAT_USER=bot
     - ROCKETCHAT_PASSWORD=botpassword
+
+全部重启， 以启动 hubot    
