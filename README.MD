@@ -20,4 +20,6 @@ Administration - General under UTF8 section  此处的值修改为： [^\x00-\x7
     - ROCKETCHAT_USER=bot
     - ROCKETCHAT_PASSWORD=botpassword
 
-全部重启， 以启动 hubot    
+注意添加机器人账户的时候， 账户类型要选择bot， 创建完以后至少登陆一次， 加入general频道。    
+
+全部重启， 以启动 hubot， 用任意一个账号在公开频道发消息 bot ping, 看看有啥奇迹发生吧。
