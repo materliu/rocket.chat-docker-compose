@@ -27,11 +27,19 @@ hubot:
     - ROCKETCHAT_URL=rocketchat:3000
     - ROCKETCHAT_ROOM=
     - LISTEN_ON_ALL_PUBLIC=true
-    - ROCKETCHAT_USER=bot
-    - ROCKETCHAT_PASSWORD=botpassword
-    - BOT_NAME=bot
+    - ROCKETCHAT_USER=xxxx
+    - ROCKETCHAT_PASSWORD=xxxx
+    - BOT_NAME=xxxx
     - GOOGLE_API_KEY=AIzaSyChP9FfAzorsVSXZ1HpYkhU4OAkgwBq2JM
-    - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,basics,hubot-links,hubot-diagnostics,hubot-google,hubot-reddit,hubot-bofh,hubot-bookmark,hubot-shipit,hubot-maps
+    - GITLAB_URL="http://xxxx.xxxxx.cn/"
+    - GITLAB_API_KEY="xxxxxx"
+    - GITLAB_CHANNEL=gitlab_publish
+    - GITLAB_BRANCHES="master,develop"
+    - GITLAB_SHOW_COMMITS_LIST=0
+    - GITLAB_SHOW_MERGE_DESCRIPTION=0
+    - HUBOT_JENKINS_URL=xxxxxx
+    - HUBOT_JENKINS_AUTH=xxxx:xxxx
+    - EXTERNAL_SCRIPTS=hubot-help,hubot-seen,basics,hubot-links,hubot-diagnostics,hubot-google,hubot-reddit,hubot-bofh,hubot-bookmark,hubot-shipit,hubot-maps,hubot-gitsy,hubot-baronbogo,hubot-qr,hubot-2048,hubot-jenkins
   links:
     - rocketchat:rocketchat
 # this is used to expose the hubot port for notifications on the host on port 3001, e.g. for hubot-jenkins-notifier
