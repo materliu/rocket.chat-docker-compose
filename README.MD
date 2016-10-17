@@ -1,6 +1,6 @@
 link: https://rocket.chat/docs/installation/docker-containers/docker-compose
 
-在执行的过程中要注意执行顺序
+在执行的过程中要注意执行顺序, 另外docker-compose.yml 中XXXX的地方要注意修改啊
 
 docker-compose up -d mongo
 

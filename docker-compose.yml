@@ -11,7 +11,7 @@ rocketchat:
     - ./uploads:/app/uploads
   environment:
     - PORT=3000
-    - ROOT_URL=http://43.241.10.189:10030
+    - ROOT_URL=http://XXXX
     - MONGO_URL=mongodb://mongo:27017/rocketchat
   links:
     - mongo:mongo
